@@ -27,12 +27,12 @@
 - 服务器信息：查看服务器的基本信息
 
 ## 在线体验
-1. 项目地址：[https://yishasoft.com/admin](https://yishasoft.com/admin)  
+1. 项目地址：[http://106.14.124.170/admin](http://106.14.124.170/admin)  
 2. 账号密码：admin 123456
 
 ## 开发文档
 
-文档地址：[https://yishasoft.com/doc](https://yishasoft.com/doc)  
+文档地址：[http://106.14.124.170/doc](http://106.14.124.170/doc)  
 
 ## 演示图
 
@@ -40,10 +40,6 @@
 ![登录进去首页](https://raw.githubusercontent.com/liukuo362573/YiShaAdmin/master/YiSha.Web/YiSha.Admin.Web/wwwroot/image/demo_2.png)
 ![用户列表](https://raw.githubusercontent.com/liukuo362573/YiShaAdmin/master/YiSha.Web/YiSha.Admin.Web/wwwroot/image/demo_3.png)
 ![用户列表修改](https://raw.githubusercontent.com/liukuo362573/YiShaAdmin/master/YiSha.Web/YiSha.Admin.Web/wwwroot/image/demo_4.png)
-
-## YiShaAdmin交流群
-
-QQ群1：428703155
 
 ## License
 

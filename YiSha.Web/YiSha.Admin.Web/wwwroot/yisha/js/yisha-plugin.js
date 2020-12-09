@@ -15,7 +15,7 @@
             key: "Key",
             value: "Value",
             data: null, // 数据源            
-            dataName: 'Result', // 数据名称
+            dataName: 'Data', // 数据名称
             default: undefined
         }, option);
 
@@ -113,7 +113,7 @@
             key: "Key",
             value: "Value",
             data: null, //数据源
-            dataName: false, //数据名称
+            dataName: 'Data', //数据名称
             default: undefined
         }, option);
 
@@ -211,7 +211,7 @@
             class: null,
             multiple: false,
             data: null, // 数据源          
-            dataName: 'Result',  // 数据名称
+            dataName: 'Data',  // 数据名称
             onChange: null,
             default: undefined
         }, option);
@@ -414,12 +414,8 @@
             var field = $(control).attr("col");
             if (control.tagName == "INPUT") {
                 if (control.type == "checkbox") {
-                    if ($(control).prop("checked")) {
-                        if (data[field]) {
-                            data[field] = data[field] + "," + $(control).val();
-                        } else {
-                            $(control).val(data[field]);
-                        }
+                    if ($(control).val() == data[field]) {
+                        $(control).prop("checked", "checked");
                     }
                 }
                 else if (control.type == "radio") {
